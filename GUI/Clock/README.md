@@ -18,34 +18,6 @@ This project is a multi-functional clock application built using Python and PySi
   
 ![Alarm](alarm.PNG)
 
-## Installation
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/MrMZ1010/PyLearn7.git
-    cd GUI/Clock
-    ```
-
-2. Create and activate a virtual environment:
-    ```sh
-    python -m venv venv
-    source venv/bin/activate # On Windows use `venv\Scripts\activate`
-    ```
-
-3. Install the required packages:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-1. Run the application:
-    ```sh
-    python main.py
-    ```
-
-2. Use the tabs to navigate between the stopwatch, timer, world clock, and alarm features.
-
 ## Dependencies
 
 - PySide6
