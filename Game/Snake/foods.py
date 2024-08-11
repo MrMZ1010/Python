@@ -5,7 +5,7 @@ import arcade  # Importing arcade library for creating games
 
 class Apple(arcade.Sprite):
     def __init__(self, game):
-        super().__init__("Apple.png")  # Calling the superclass constructor with the image file path
+        super().__init__("assets/Apple.png")  # Calling the superclass constructor with the image file path
         self.width = 36  # Setting the width of the sprite
         self.height = 36  # Setting the height of the sprite
         # Setting the initial position of the sprite randomly within the game window
@@ -16,7 +16,7 @@ class Apple(arcade.Sprite):
 
 class Pear(arcade.Sprite):
     def __init__(self, game):
-        super().__init__("Pear.png")  # Calling the superclass constructor with the image file path
+        super().__init__("assets/Pear.png")  # Calling the superclass constructor with the image file path
         self.width = 36  # Setting the width of the sprite
         self.height = 36  # Setting the height of the sprite
         # Setting the initial position of the sprite randomly within the game window
@@ -27,7 +27,7 @@ class Pear(arcade.Sprite):
 
 class Shit(arcade.Sprite):
     def __init__(self, game):
-        super().__init__("Shit.png")  # Calling the superclass constructor with the image file path
+        super().__init__("assets/Shit.png")  # Calling the superclass constructor with the image file path
         self.width = 36  # Setting the width of the sprite
         self.height = 36  # Setting the height of the sprite
         # Setting the initial position of the sprite randomly within the game window

@@ -5,7 +5,7 @@ import arcade
 class Heart(arcade.Sprite):
     def __init__(self, location):
         # Initialize the Heart sprite with the image of a heart
-        super().__init__("heart.jpg")
+        super().__init__("assets/heart.jpg")
         # Set the initial position of the heart sprite based on its location
         self.center_x = 20 + location * 30
         self.center_y = 20

@@ -15,7 +15,7 @@ class Game(arcade.Window):
         # Initialize the game window
         super().__init__(width=800, height=600, title="Interstellar")
         # Load the background texture
-        self.background = arcade.load_texture("back.jpg")
+        self.background = arcade.load_texture("assets/back.jpg")
         # Create the player spaceship object
         self.me = Spaceship(self)
         # Initialize score
@@ -26,7 +26,7 @@ class Game(arcade.Window):
         # Load game sounds
         self.gameover = arcade.load_sound(':resources:sounds/gameover1.wav', False)
         self.laser_sound = arcade.load_sound(':resources:sounds/hit1.wav')
-        self.black_page = arcade.load_texture("black.png")
+        self.black_page = arcade.load_texture("assets/black.png")
         # Create heart objects and add them to the heart list
         for i in range(3):
             heart_object = Heart(i)

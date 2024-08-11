@@ -37,9 +37,9 @@ The data is analyzed and visualized using various plots:
 
 The results of the analysis are visualized through the following plots:
 - **Stock Prices and Moving Averages**: A line plot showing the closing prices and the 20-day, 50-day, and 100-day moving averages.
-![Stock Prices and Moving Averages](stock_prices_moving_averages.png)
+![Stock Prices and Moving Averages](assets/stock_prices_moving_averages.png)
 - **Distribution of Daily Returns**: A histogram with a kernel density estimate showing the distribution of daily returns.
-![Distribution of Daily Returns](daily_returns_distribution.png)
+![Distribution of Daily Returns](assets/daily_returns_distribution.png)
 - **Cumulative Returns**: A line plot showing the cumulative returns over the analysis period.
-![Cumulative Returns](cumulative_returns.png)
+![Cumulative Returns](assets/cumulative_returns.png)
 
