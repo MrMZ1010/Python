@@ -30,5 +30,5 @@ The data is split into training and testing sets, and a linear regression model 
 ## Results
 
 The results of the model are visualized using a scatter plot of the actual vs. predicted prices.
-![Result](result.png)
+![Result](Result.png)
 
