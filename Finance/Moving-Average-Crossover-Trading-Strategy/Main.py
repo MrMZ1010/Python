@@ -54,7 +54,8 @@ def simulate_trading(prices, short_window=5, long_window=10):
         signals.append(signal)
         
     return signals
-
+    
+# Example usage
 if __name__ == "__main__":
     # Simulating with sample price data
     prices = np.random.uniform(100, 200, 50)  # Randomly generated prices
