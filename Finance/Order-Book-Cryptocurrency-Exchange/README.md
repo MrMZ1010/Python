@@ -12,5 +12,3 @@ This project implements a simple **Order Book** for a cryptocurrency exchange us
 ### Prerequisites
 
 - **Python**
-
-- **Install dependencies if required (e.g., `numpy` or other libraries):**
